@@ -35,8 +35,8 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "tf_state" {
 
 output "bucket_info" {
   value = {
-    bucket_name = aws_s3_bucket.tf_state.bucket
-    region      = aws_s3_bucket.tf_state.region
-    key         = "m2/terraform.tfstate"
+    bucket = aws_s3_bucket.tf_state.bucket
+    region = aws_s3_bucket.tf_state.region
+    key    = "m2/terraform.tfstate"
   }
 }
