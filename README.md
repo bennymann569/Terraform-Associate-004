@@ -4,14 +4,12 @@ Hello and welcome to the combined repository for my Terraform Associate 004 lear
 
 * [Terraform Fundamentals](https://app.pluralsight.com/ilx/video-courses/terraform-fundamentals-iac-providers-state-004-cert)
 * [Core Terraform Workflow](http://www.pluralsight.com/courses/core-terraform-workflow-terraform-associate-004-cert)
-* Terraform Configuration
-* Terraform Modules
-* Terraform State
+* [Terraform Configuration](https://app.pluralsight.com/library/courses/terraform-config-terraform-associate-004-cert)
+* [Terraform Modules](https://app.pluralsight.com/library/courses/terraform-modules-terraform-associate-004-cert)
+* [Terraform State](https://app.pluralsight.com/library/courses/terraform-state-infrastructure-lifecycle-terraform-associate-004-cert)
 * HCP Terraform
 
 Each course deals with some portion of the objectives outlined by the [exam materials on HashiCorp's site](https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-review-004).
-
-Currently, the `Terraform Fundamentals` and `Core Terraform Workflow` courses have been published.
 
 As each course is published, a new folder will be added to the repository. The current plan is to have all courses published by end of June 2026.
 
