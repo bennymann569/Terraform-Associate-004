@@ -15,3 +15,8 @@ variable "common_tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "subnet_id" {
+  description = "The ID of the subnet to deploy resources into"
+  type        = string
+}

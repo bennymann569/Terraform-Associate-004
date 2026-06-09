@@ -2,13 +2,8 @@ data "aws_ssm_parameter" "amzn2_ami" {
   name = "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
 }
 
-data "tfe_outputs" "networking" {
-  organization = "ned-0527-org"
-  workspace    = "taco-wagon-networking"
-}
-
 data "aws_subnet" "selected" {
-  id = data.tfe_outputs.networking.nonsensitive_values.public_subnet_id
+  id = var.subnet_id
 }
 
 resource "aws_security_group" "allow_http" {
