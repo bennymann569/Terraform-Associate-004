@@ -7,11 +7,11 @@ Hello and welcome to the combined repository for my Terraform Associate 004 lear
 * [Terraform Configuration](https://app.pluralsight.com/library/courses/terraform-config-terraform-associate-004-cert)
 * [Terraform Modules](https://app.pluralsight.com/library/courses/terraform-modules-terraform-associate-004-cert)
 * [Terraform State](https://app.pluralsight.com/library/courses/terraform-state-infrastructure-lifecycle-terraform-associate-004-cert)
-* HCP Terraform
+* [HCP Terraform](http://www.pluralsight.com/courses/hcp-terraform-terraform-associate-004-cert)
 
 Each course deals with some portion of the objectives outlined by the [exam materials on HashiCorp's site](https://developer.hashicorp.com/terraform/tutorials/certification-004/associate-review-004).
 
-As each course is published, a new folder will be added to the repository. The current plan is to have all courses published by end of June 2026.
+Each course has its own dedicated folder in the repository. The final course was published on June 30, 2026.
 
 ## Expectations
 
@@ -20,6 +20,8 @@ The purposes of these courses and the learning path as a whole is to prepare you
 Most of the examples provided in the exercises focus on using Terraform and not a particular public cloud platform. I chose to do this for two reasons. First, the exam is intentionally cloud agnostic, so gaining expertise in AWS or Azure will not help you pass the exam. And secondly, leveraging a cloud platform costs money and requires additional setup. By sticking to providers like `local` and `random`, you can gain an understanding of how Terraform works without dealing with costly cloud resources and account credentials.
 
 Of course, if you plan to use Terraform in a production context, you will need to learn how to use providers that deal with specific cloud platforms. In that case, you may wish to seek out some of the platform specific Terraform courses on Pluralsight. Again, this path is intended to help you pass the exam; no more, no less.
+
+Where it was unavoidable to use a cloud provider, I have included examples for AWS, Azure, and Google Cloud. My hope is that you already have an account on one of these three platforms and have free credits available for deployment.
 
 ## Course to Objective Mapping
 
