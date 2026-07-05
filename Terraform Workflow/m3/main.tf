@@ -6,5 +6,5 @@ resource "random_string" "main" {
 resource "local_file" "main" {
   filename        = var.file_name
   content         = random_string.main.result
-  file_permission = "111"
+  file_permission = "777"
 }
