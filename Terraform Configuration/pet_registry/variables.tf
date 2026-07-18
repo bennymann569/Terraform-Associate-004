@@ -1,10 +1,9 @@
-variable "length" {
-  description = "The length of the random pet name"
+variable "cat_length" {
+  description = "The length of the random cat name"
   type        = list(number)
 }
 
-variable "add_dogs_prefix" {
-  description = "add dogs prefix"
-  type = bool
-  default = false
+variable "dogs_info" {
+  description = "Map of dog prefixes to lengths"
+  type        = map(number)
 }
