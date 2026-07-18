@@ -5,14 +5,14 @@ locals {
 resource "random_pet" "cats" {
   count    = length(var.cat_length)
   length    = var.cat_length[count.index]
-  separator = local.separator[0]
+  separator = var.separator[0]
   prefix    = trimspace(file("prefix.txt"))
 }
 
 resource "random_pet" "dogs" {
   for_each = var.dogs_info
   length    = each.value
-  separator = local.separator[1]
+  separator = var.separator[1]
   depends_on = [random_pet.cats]
   prefix    = each.key
 }
