@@ -2,7 +2,7 @@ dogs Pet Report
 ==========
 
 Pet name | Length
-king_topical_haddock | 2
-queen_plainly_capable_fowl | 3
+king_huge_horse | 2
+queen_utterly_polished_squid | 3
 
-Generated on 2026-07-18T07:27:32Z
+Generated on 2026-07-18T10:28:25Z

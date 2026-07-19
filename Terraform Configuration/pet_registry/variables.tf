@@ -13,10 +13,10 @@ variable "separator" {
   type        = list(string)
   default     = ["-", "_", " "]
 
-validation {
-  condition = alltrue([
-    for s in var.separator : contains(["-", "_", " "], s)
-  ])
-  error_message = "Each separator must be '-', '_' or ' '."
-}
+  validation {
+    condition = alltrue([
+      for s in var.separator : contains(["-", "_", " "], s)
+    ])
+    error_message = "Each separator must be '-', '_' or ' '."
+  }
 }
